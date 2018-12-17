@@ -1,0 +1,50 @@
+1. Jawaban pseudocode untuk "Newton Second Law" :
+	
+	STORE m with 600,
+	STORE a with 2,
+	STORE EF without any value,
+	COMPUTE m times a,
+	SET computation result to EF,
+	DISPLAY EF.
+
+2. Jawaban algoritma dan pseudocode untuk Tahun Kabisat :
+	
+	Algoritma: Input the number of years, compute the number with modulo four, if the result not equal as zero then display "Bukan tahun Kabisat". if the result equal zero then calculate the number of year with modulo 100, if the result not equal as zero then display "Tahun kabisat", but if the result equal as zero then calculate the number of year with modulo 400, if the result equal as zero then display "Tahun Kabisat" else diplay "Bukan Tahun Kabisat".
+
+	Pseudocode: STORE Years with any value,
+		    CALCULATE Years modulo by 4,
+		    SET The result of computation to resultModuloFour,
+		    	If the resultModuloFour NOT equal as 0, display "Bukan Tahun Kabisat" Elseif
+		    CALCULATE Years modulo by 100,
+		    SET The result of computation to resultModuloOneHundred,
+			If the resultModuloOneHundred NOT equal as 0, display "Tahun Kabisat" Elseif
+		    CALCULATE Years modulo by 400,
+		    SET The result of computation to resultModuloFourHundred,
+			If the resultModuloFourHundred equal as 0, display "Tahun Kabisat" ElSE
+			DISPLAY "Bukan Tahun Kabisat"
+
+3. Jawaban algoritma dan pseudocode untuk Laundry Day :
+
+	Algoritma: Put the Total laundry with 20, While the total of laundry not equal as zero, do substract total by one until zero and then display "Nyalakan Mesin Cuci!"
+	
+	Pseudocode: STORE TotalLaundry with 20
+		    WHILE TotalLaundry NOT equal as 0,
+		    SUBSTRACT TotalLaundry by 1
+
+		    DISPLAY "Nyalakan Mesin CUCI!"
+
+4. Jawaban algoritma dan pseudocode untuk PERIKSA KUKU :
+
+	Algoritma: Go to Student number 1, check if he/she has a Kuku Panjang or Kuku Pendek. If Student has Kuku Panjang display "Dihukum" else display "Dipuji"
+
+	Pesudocode: STORE NomorMurid with 0
+		    CASE 0 = KUKU PANJANG
+			 1 = KUKU PENDEK
+		    Continue CASE until CASE 39.
+		    IF NomorMurid = KUKU PANJANG DISPLAY "Dihukum"
+		    ELSE DISPLAY "Dipuji"
+
+		    ADD NomorMurid by 1
+
+	
+				
