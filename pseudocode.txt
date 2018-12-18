@@ -37,11 +37,13 @@
 
 	Algoritma: Go to Student number 1, check if he/she has a Kuku Panjang or Kuku Pendek. If Student has Kuku Panjang display "Dihukum" else display "Dipuji"
 
-	Pesudocode: STORE NomorMurid with 0
-		    CASE 0 = KUKU PANJANG
-			 1 = KUKU PENDEK
+	Pesudocode: STORE nomorMurid with 0
+		    WHILE nomorMurid less than 39
+		    SWITCH nomorMurid
+		    CASE 0 STORE kukuMurid as KUKU PANJANG
+			 1 STORE kukuMurid as KUKU PENDEK
 		    Continue CASE until CASE 39.
-		    IF NomorMurid = KUKU PANJANG DISPLAY "Dihukum"
+		    IF kukuMurid = KUKU PANJANG DISPLAY "Dihukum"
 		    ELSE DISPLAY "Dipuji"
 
 		    ADD NomorMurid by 1
