@@ -34,7 +34,7 @@ for(counter = 0; counter < 101; counter++){
 }
 
 console.log('COUNTER KELIPATAN 3');
-for(counter = 1; counter < 101; counter++){
+for(counter = 0; counter <= 100; counter++){
     if(counter % 3 === 0){
         console.log(counter + ' KELIPATAN 3');
     }else {
@@ -42,7 +42,7 @@ for(counter = 1; counter < 101; counter++){
     }
 }
 console.log('COUNTER KELIPATAN 6');
-for(counter = 1; counter < 101; counter++){
+for(counter = 0; counter <= 100; counter++){
     if(counter % 6 === 0){
         console.log(counter + ' KELIPATAN 6');
     }else {
@@ -51,7 +51,7 @@ for(counter = 1; counter < 101; counter++){
 }
 
 console.log('COUNTER KELIPATAN 10');
-for(counter = 1; counter < 101; counter++){
+for(counter = 0; counter <= 100; counter++){
     if(counter % 10 === 0){
         console.log(counter + ' KELIPATAN 10');
     }else {

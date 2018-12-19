@@ -29,3 +29,4 @@ for(i = 1; i <= rows3; i++){
     }
     console.log(str);
 }
+
