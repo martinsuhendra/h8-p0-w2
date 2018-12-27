@@ -1,12 +1,17 @@
 function soal3(param)
 {
-    for(i = 0;i < param;i++){
-        var array = []
-        for(j=1; j <= param * param;j++){
-            array.push(j)
-            }
-            
-    }console.log(array)
+    var result = [];
+    var array = [];
+    var count = 1;
+
+    for(i=0;i < param;i++){
+        array = []
+        for(j=0;j < param;j++){
+            array.push(count++);
+        }
+        result.push(array);
+    }
+    return result;
 }
 
 
