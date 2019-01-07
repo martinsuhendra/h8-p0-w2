@@ -9,9 +9,9 @@ function xo(str) {
             counterO = counterO + 1;
         }
     } if(counterO === counterX){
-        return str = true
+        return true // sudah dikoreksi dari return str = true
     }else{
-        return str = false
+        return false // sudah dikoreksi dari return str = false
     }
   }
   

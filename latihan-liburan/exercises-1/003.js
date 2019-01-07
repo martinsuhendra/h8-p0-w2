@@ -1,13 +1,13 @@
 function soal3(param)
 {
     var result = [];
-    var array = [];
     var count = 1;
 
     for(i=0;i < param;i++){
-        array = []
+        var array = []
         for(j=0;j < param;j++){
-            array.push(count++);
+            array.push(count);
+            count++
         }
         result.push(array);
     }

@@ -1,23 +1,23 @@
 function soal1(param)
 {
     for(var i = 0; i <= 0;i++){
-        var result = '';
+        var result = [];
         if(param === 0){
-            console.log('invalid input')
+            return 'invalid input'
         }else if(param % 2 === 1){
             for(j = 1; j <= param; j++){
                 if(j === (Math.floor(param/2) + 1)){
-                result += '[*]'
+                result.push('*')
                     }else{
-                    result += '[]'
+                    result.push('')
                     }
             }
         }else{
             for(j = 1; j <= param; j++){
                  if(j === Math.floor(param/2) || j === Math.floor(param/2 + 1)){
-                result += '[*]'
+                result.push('*')
                 }else{
-                result += '[]'
+                result.push('')
                 }
              }
         }

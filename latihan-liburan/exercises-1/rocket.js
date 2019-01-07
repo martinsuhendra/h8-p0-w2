@@ -10,32 +10,27 @@
     petunjuk : 
     - input harus bernilai ganjil , jika tidak ganjil maka " invalid input "
 */
-function benderaInggris(param)
-{
-    if(param % 2 === 0){
-        console.log('invalid input')
-    }else{
-        for(var i = 1; i < param;i++){
+function benderaInggris(param){
+    if(param % 2 === 1){
+        for(var i = 0; i < param;i++){
             var result = ''
-                if(i !== (param + 1) / 2){
-                    for(j = 1; j <= param;j++){
-                        if(j !== (param + 1)/2){
-                            result += ' '
-                        }else {
-                            result += '*'
-                        }
-                    } console.log(result)
+            for(var j = 0; j < param;j++ ){
+                if(i === (param - 1)/2){
+                    result += '*'
+                }else if(j === (param - 1)/2){
+                    result += '*'
                 }else{
-                    for(j = 1; j <= param; j++){
-                        result += '*'
-                    }console.log(result)
-                } 
-        }
-    } return result
-    
+                    result += ' '
+                }
+            }
+            console.log(result)
+        } return ''
+    }else{
+        return 'invalid input'
+    }
 }
 
-console.log(benderaInggris(9))
+console.log(benderaInggris(3))
 
 /*
     output:
